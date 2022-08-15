@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--CND tailwind-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--CSS link-->
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Estudio juridico</title>
+</head>
+
+<body>
+  <div class="navbar fixed top-0 left-0 w-full z-10 shadow bg-white navbar-center">
+    <div class="flex-none">
+      <button class="btn btn-square btn-ghost">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          class="inline-block w-5 h-5 stroke-current">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl">Estudio juridico</a>
+    </div>
+    <div class="flex-none">
+      <!--   <button class="btn btn-square btn-ghost">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+      </button> -->
+      <ul class="flex-1 flex-row menu menu-compact hidden md:flex items-center pr-10 lg:menu-normal">
+        <li class="hover:text-cyan-500 font-semibold">
+          <a href="#" class="text-base active">Home</a>
+        </li>
+        <li class="hover:text-cyan-500 font-semibold">
+          <a href="#" class="text-base">Nosotros</a>
+        </li>
+        <li class="hover:text-cyan-500 font-semibold">
+          <a href="#servicios" class="text-base">Servicios</a>
+        </li>
+        <li class="hover:text-cyan-500 font-semibold">
+          <a href="#" class="text-base">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--Hero Content-->
+  <div class="hero min-h-screen" style="background-image: url(https://placeimg.com/1000/800/arch)">
+    <div class="hero-overlay bg-opacity-50"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md">
+        <h1 class="mb-5 text-5xl text-white font-bold">Estudio juridico</h1>
+        <p class="mb-5 text-xl text-white tracking-wide leading-8">
+          El Estudio Jurídico Integral H&C se dedica a consultorías y
+          asesoramiento las 24hs., focalizado en diversas ramas del Derecho
+          como Accidentes de Tránsito, Sucesiones, Divorcio, Derecho Laboral,
+          Jubilaciones y Pensiones y más.
+        </p>
+        <button class="btn btn-glass btn-sm btn-md btn-lg rounded-full">Contacto</button>
+      </div>
+    </div>
+  </div>
+  <!-- <ul class="menu p-3 bg-base-200 rounded-xl">
+    <li>
+        <span class="block px-5 py-1 text-xs text-gray-400 font-bold">Title menu</span>
+    </li>
+    <li>
+        <a href="#" class="block px-5 py-3 rounded-lg text-gray-900 hover:bg-gray-200 active:bg-indigo-600 active:text-white outline-none cursor-pointer">First menu</a>
+    </li>
+    <li>
+        <a href="#" class="block px-5 py-3 rounded-lg text-gray-900 hover:bg-gray-200 active:bg-indigo-600 active:text-white outline-none cursor-pointer">Second menu</a>
+    </li>
+    <li>
+        <a href="#" class="block px-5 py-3 rounded-lg text-gray-900 hover:bg-gray-200 active:bg-indigo-600 active:text-white outline-none cursor-pointer">Third menu</a>
+    </li>
+    <a href="#" class="link link-secondary">Otro link</a>
+</ul> -->
+  <!--SERVICES-->
+  <div class="relative py-16 bg-white" id="servicios">
+    <h2 class="text-5xl text-center">Servicios</h2>
+    <div class="relative container m-auto px-6 text-gray-500 md:px-12">
+      <div class="grid lg:grid-cols-2 gap-6 md:w-8/12 md:mx-auto lg:w-75">
+        <div class="group bg-white rounded-xl shadow-xl px-8 py-12 space-y-6 text-center">
+          <img class="mx-auto w-75" src="./img/laboral.jpg" alt="illustration" loading="lazy" />
+          <h3 class="text-2xl font-semibold text-gray-800">Accidentes de transito</h3>
+          <p>
+            Obcaecati, quam? Eligendi, nulla numquam natus laborum porro at
+            cum, consectetur ullam tempora ipsa iste officia sed officiis!
+            Incidunt ea animi officiis.
+          </p>
+          <a href="#"
+            class="relative flex justify-center items-center h-10 w-10 mx-auto before:absolute before:inset-0 before:border before:rounded-full before:transition before:duration-300 group-hover:before:scale-125">
+            <span class="text-gray-700">&rightarrow;</span>
+          </a>
+        </div>
+        <div class="group bg-white rounded-xl shadow-xl px-8 py-12 space-y-6 text-center">
+          <img class="mx-auto w-75" src="./img/laboral.jpg" alt="illustration" loading="lazy" />
+          <h3 class="text-2xl font-semibold text-gray-800">Derecho Penal</h3>
+          <p>
+            Obcaecati, quam? Eligendi, nulla numquam natus laborum porro at
+            cum, consectetur ullam tempora ipsa iste officia sed officiis!
+            Incidunt ea animi officiis.
+          </p>
+          <a href="#"
+            class="relative flex justify-center items-center h-10 w-10 mx-auto before:absolute before:inset-0 before:border before:rounded-full before:transition before:duration-300 group-hover:before:scale-125">
+            <span class="text-gray-700">&rightarrow;</span>
+          </a>
+        </div>
+        <div class="group bg-white rounded-xl shadow-xl px-8 py-12 space-y-6 text-center">
+          <img class="mx-auto w-75" src="./img/laboral.jpg" alt="illustration" loading="lazy" />
+          <h3 class="text-2xl font-semibold text-gray-800">Derecho Laboral</h3>
+          <p>
+            Obcaecati, quam? Eligendi, nulla numquam natus laborum porro at
+            cum, consectetur ullam tempora ipsa iste officia sed officiis!
+            Incidunt ea animi officiis.
+          </p>
+          <a href="#"
+            class="relative flex justify-center items-center h-10 w-10 mx-auto before:absolute before:inset-0 before:border before:rounded-full before:transition before:duration-300 group-hover:before:scale-125">
+            <span class="text-gray-700">&rightarrow;</span>
+          </a>
+        </div>
+        <div class="group bg-white rounded-xl shadow-xl px-8 py-12 space-y-6 text-center">
+          <img class="mx-auto w-75" src="./img/laboral.jpg" alt="illustration" loading="lazy" />
+          <h3 class="text-2xl font-semibold text-gray-800">Jubilaciones y Pensiones</h3>
+          <p>
+            Obcaecati, quam? Eligendi, nulla numquam natus laborum porro at
+            cum, consectetur ullam tempora ipsa iste officia sed officiis!
+            Incidunt ea animi officiis.
+          </p>
+          <a href="#"
+            class="relative flex justify-center items-center h-10 w-10 mx-auto before:absolute before:inset-0 before:border before:rounded-full before:transition before:duration-300 group-hover:before:scale-125">
+            <span class="text-gray-700">&rightarrow;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END SERVICES-->
+  <!--NOSOTROS-->
+  <div class="relative py-16 bg-white">
+    <h2 class="text-5xl text-center">Nosotros</h2>
+    <article class="max-w-md ">
+      <p class="mb-5 text-xl text-center text-white"></p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, dolores quas! Tempora amet hic pariatur autem
+        neque eveniet laudantium, quae, impedit molestias nostrum natus ullam sit voluptatum repudiandae necessitatibus
+        eius vel blanditiis laboriosam sed, beatae doloribus. Commodi voluptatibus facere incidunt aliquid quidem soluta
+        quas omnis consequuntur excepturi, magnam, ad, nemo tempora! Qui rerum nemo quia cupiditate totam ad dicta
+        officia saepe illo! Velit sint repellendus perferendis magnam veritatis eum molestiae corporis rem, minus ab id
+        beatae obcaecati iusto perspiciatis mollitia.
+      </p>
+    </article>
+  </div>
+  <!--CONTACT US-->
+  
+  <!--FOOTER-->
+  <footer class="w-full py-16 bg-gray-300">
+    <div class="md:px-12 lg:px-28">
+      <div class="container m-auto space-y-6 text-gray-600">
+        <img src="images/logo.svg" alt="logo tailus" class="w-40 m-auto" />
+        <ul role="list" class="py-4 flex flex-col gap-4 items-center justify-center sm:flex-row sm:gap-8">
+          <li role="listitem">
+            <a href="#" class="hover:text-cyan-500">Home</a>
+          </li>
+          <li role="listitem">
+            <a href="#" class="hover:text-cyan-500">Features</a>
+          </li>
+          <li role="listitem">
+            <a href="#" class="hover:text-cyan-500">Get started</a>
+          </li>
+          <li role="listitem">
+            <a href="#" class="hover:text-cyan-500">About us</a>
+          </li>
+        </ul>
+        <div class="w-max m-auto flex items-center justify-between space-x-4">
+          <a href="tel:+243996660436" aria-label="call">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 m-auto" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z">
+              </path>
+            </svg>
+          </a>
+          <a href="mailto:hello@mail.com" aria-label="send mail">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 m-auto" viewBox="0 0 16 16">
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z">
+              </path>
+            </svg>
+          </a>
+          <a href="#" title="facebook" target="blank" aria-label="facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 m-auto" viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+              </path>
+            </svg>
+          </a>
+          <a href="#" title="linkedin" target="blank" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 m-auto" viewBox="0 0 16 16">
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
+              </path>
+            </svg>
+          </a>
+        </div>
+
+        <div class="text-center">
+          <span class="text-sm tracking-wide">Copyright © tailus <span id="year"></span> | All right
+            reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
