@@ -4,3 +4,30 @@ html{
 h2{
     text-transform: uppercase;
 }
+section {
+    min-height: 50vh;
+    max-width: 680px;
+    margin: 0 auto 0;
+    padding: 3rem 0;
+  }
+  .text-section {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+  }
+.text-about {
+    color: #3f4e4f;
+    width: 80%;
+    line-height:1.7;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    text-align:center;
+  }
+  .form-control{
+    position: absolute;
+    left: 50%;
+  }
